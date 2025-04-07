@@ -11,7 +11,7 @@ export default function Projects() {
             <ul>
                 <a href='#' target='_blank'>
                     <div className="avatar">
-                        <Icon icon='fluent:people-community-12-filled' />
+                        <Icon icon='solar:hiking-bold-duotone' />
                     </div>
                     <div className="description">
                         <h1>Landaria.Net</h1>
@@ -21,7 +21,7 @@ export default function Projects() {
                 
                 <a href='https://github.com/sxbide/ak-injector' target='_blank'>
                     <div className="avatar">
-                        <Icon icon='material-symbols:bug-report' />
+                        <Icon icon='solar:pipette-bold-duotone' />
                     </div>
                     <div className="description">
                         <h1>Ak Injector</h1>

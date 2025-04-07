@@ -12,11 +12,11 @@ export default function Resources() {
                 <a href='https://github.com/sxbide/XUIDConverter' target='_blank'>
                     <div className="content">
                         <div className="avatar">
-                            <Icon icon='solar:masks-bold-duotone' />
+                            <Icon icon='solar:tuning-bold-duotone' />
                         </div>
                         <div className="description">
                             <h1>Bedrock UUID Converter</h1>
-                            <h2>A Java 21 utility class to convert bedrock uuids to a username.</h2>
+                            <h2>A java 21 utility class to convert bedrock uuids to a username.</h2>
                         </div>
                     </div>
 
