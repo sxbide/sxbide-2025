@@ -22,10 +22,12 @@ nav.navigation .signature {
     display: flex;
     align-items: center;
 }
-nav.navigation .signature h1 {
+nav.navigation .signature a {
     font-family: 'Karstar';
     font-weight: 200;
     font-size: 70px;
+    color: rgb(226, 226, 226); ;
+    text-decoration: none;
 }
 
 nav.navigation .signature img {

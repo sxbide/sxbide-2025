@@ -3,6 +3,7 @@ import './App.css';
 
 import Navbar from './components/Navbar/Navbar'
 import HomePage from './pages/Home/HomePage'
+import NotFound from './pages/404/404'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path='*' element={<HomePage />}></Route>
+        <Route path='/' element={<HomePage />}></Route>
+        <Route path='*' element={<NotFound />}></Route>
       </Routes>
     </div>
   );

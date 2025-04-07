@@ -26,7 +26,7 @@ export default function Navbar() {
     return (
         <nav className="navigation">
             <div className="signature">
-                <h1>Sebi</h1>
+                <a href='/'>Sebi</a>
             </div>
 
             <ul className="items">
