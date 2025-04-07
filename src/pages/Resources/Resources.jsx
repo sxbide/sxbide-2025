@@ -24,7 +24,7 @@ export default function Resources() {
                         <span className='icon-java'>Java</span>
                     </div>
                 </a>
-                <a href='https://github.com/sxbide/XUIDConverter' target='_blank'>
+                <a href='https://github.com/sxbide/Shop' target='_blank'>
                     <div className="content">
                         <div className="avatar">
                             <Icon icon='icon-park-twotone:shopping' />
