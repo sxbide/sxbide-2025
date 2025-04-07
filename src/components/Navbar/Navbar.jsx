@@ -36,7 +36,7 @@ export default function Navbar() {
                         className={selectedIndex === index ? 'selected' : 'nav-item'}
                         onClick={() => handleSelected(index)}
                     >
-                        <a href="#">{item}</a>
+                        <a href="/">{item}</a>
                     </li>
                 ))}
             </ul>
