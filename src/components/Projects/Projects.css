@@ -1,0 +1,100 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #18181B;
+    border: 0.6px solid rgba(255, 255, 255, 0.096);
+    border-radius: 0.75rem;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 32px;
+}
+
+.projects header {
+    padding: 0;
+    margin: 0;
+}
+
+.projects header h1 {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0rem;
+    color: rgb(164, 164, 175);
+}
+
+.projects header h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 20px;
+    color: rgba(164, 164, 175, 0.788);
+    opacity: 0.5;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.project ul a {
+    text-decoration: none;
+}
+
+.projects ul a {
+    display: flex;
+    align-items: center;
+    border: 0.6px solid transparent;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0.3rem;
+    border-radius: 8px;
+    transition: 0.25s ease-in-out;
+}
+
+.projects ul a:hover {
+    background-color: #27272A;
+    cursor: pointer;
+    border: 0.6px solid rgba(255, 255, 255, 0.096);
+}
+
+
+.projects ul a .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+}
+
+.projects ul a .avatar svg {
+    width: 23px;
+    height: 23px;
+    background-color: rgb(63 63 70 / 1);
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    border: 0.6px solid rgba(255, 255, 255, 0.096);
+    box-sizing: content-box;
+    color: #adadb6;
+}
+
+.projects ul a .description h1 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #D4D4D8;
+}
+
+.projects ul a .description h2 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(113 113 122 / 1);
+}
