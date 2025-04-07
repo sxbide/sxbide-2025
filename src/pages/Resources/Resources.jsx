@@ -5,8 +5,8 @@ export default function Resources() {
     return (
         <section className="resources">
             <header>
-                <h1>Some resources of projects i also made:</h1>
-                <h2>All sourcecodes are available on github.</h2>
+                <h1>Some projects i also made but arent that notable:</h1>
+                <h2>All sourcecodes are available by clicking them.</h2>
             </header>
             <ul>
                 <a href='https://github.com/sxbide/XUIDConverter' target='_blank'>
@@ -30,7 +30,7 @@ export default function Resources() {
                             <Icon icon='icon-park-twotone:shopping' />
                         </div>
                         <div className="description">
-                            <h1>Minecraft Shop Plugin</h1>
+                            <h1>Minecraft Shop</h1>
                             <h2>A 1.20 minecraft plugin to buy and sell items from - to a npc.</h2>
                         </div>
                     </div>

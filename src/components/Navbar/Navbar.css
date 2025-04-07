@@ -7,7 +7,7 @@ nav.navigation {
     margin-right: auto;
     /* max-width: 400px; */
     font-size: 34px;
-    column-gap: 30rem;
+    column-gap: 24rem;
     row-gap: 1rem;
     flex-wrap: wrap;
     margin-top: 3rem;
