@@ -1,0 +1,63 @@
+import { Icon } from '@iconify/react/dist/iconify.js'
+import './Resources.css'
+
+export default function Resources() {
+    return (
+        <section className="resources">
+            <header>
+                <h1>Some resources of projects i also made:</h1>
+                <h2>All sourcecodes are available on github.</h2>
+            </header>
+            <ul>
+                <a href='https://github.com/sxbide/XUIDConverter' target='_blank'>
+                    <div className="content">
+                        <div className="avatar">
+                            <Icon icon='mynaui:face-id' />
+                        </div>
+                        <div className="description">
+                            <h1>XUID Converter</h1>
+                            <h2>A Geyser UUID Converter.</h2>
+                        </div>
+                    </div>
+
+                    <div className="language">
+                        <span className='icon-java'>Java</span>
+                    </div>
+                </a>
+                <a href='https://github.com/sxbide/XUIDConverter' target='_blank'>
+                    <div className="content">
+                        <div className="avatar">
+                            <Icon icon='icon-park-twotone:shopping' />
+                        </div>
+                        <div className="description">
+                            <h1>Minecraft Shop Plugin</h1>
+                            <h2>A 1.20 minecraft plugin to buy and sell items from - to a npc.</h2>
+                        </div>
+                    </div>
+
+                    <div className="language">
+                        <span className='icon-java'>Java</span>
+                        <span className='icon-java'>MongoDB</span>
+                    </div>
+                </a>
+                {/* <a href='https://github.com/whynotmax/SkyMythDE' target='_blank'>
+                    <div className="content">
+                        <div className="avatar">
+                            <Icon icon='ri:sword-line' />
+                        </div>
+                        <div className="description">
+                            <h1>Minecraft SkyPvP Plugin</h1>
+                            <h2>A 1.8 minecraft plugin. Fully functional skypvp with crates, pvp kits and much more. By me and @whynotmax</h2>
+                        </div>
+                    </div>
+
+                    <div className="language">
+                        <span className='icon-java'>Java</span>
+                        <span className='icon-java'>MongoDB</span>
+                    </div>
+                </a> */}
+
+            </ul>
+        </section>
+    )
+}

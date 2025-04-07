@@ -1,19 +1,25 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './Navbar.css';
 import { Icon } from '@iconify/react/dist/iconify.js';
 import { useMediaQuery } from "react-responsive";
-
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [isDark, setIsDark] = useState(true);
 
-    const menuItems = ['Home'];
+    const menuItems = [
+        { label: 'Home', href: '/' },
+        { label: 'Resources', href: '/resources' },
+    ];
 
-    function handleSelected(index) {
-        setSelectedIndex(index);
-    }
-
+    useEffect(() => {
+        const currentPath = window.location.pathname;
+        const matchedIndex = menuItems.findIndex(item => item.href === currentPath);
+        if (matchedIndex !== -1) {
+            setSelectedIndex(matchedIndex);
+        }
+    }, [window.location.pathname]);
 
     const systemPrefersDark = useMediaQuery(
         {
@@ -26,17 +32,17 @@ export default function Navbar() {
     return (
         <nav className="navigation">
             <div className="signature">
-                <a href='/'>Sebi</a>
+                <Link to='/'>Sebi</Link>
             </div>
 
             <ul className="items">
                 {menuItems.map((item, index) => (
                     <li
-                        key={item}
+                        key={item.label}
                         className={selectedIndex === index ? 'selected' : 'nav-item'}
-                        onClick={() => handleSelected(index)}
+                        onClick={() => setSelectedIndex(index)}
                     >
-                        <a href="/">{item}</a>
+                        <Link to={item.href}>{item.label}</Link>
                     </li>
                 ))}
             </ul>

@@ -24,3 +24,12 @@ a { color: transparent; }
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 700px) {
+  section.home {
+      margin: 1.5rem;
+  }
+  section.resources {
+    margin: 1.5rem;
+}
+}

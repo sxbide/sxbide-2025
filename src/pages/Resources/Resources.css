@@ -1,0 +1,122 @@
+.resources {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #18181B;
+    border: 0.6px solid rgba(255, 255, 255, 0.096);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin-top: 32px;
+    margin: auto auto;
+}
+
+.resources header {
+    padding: 0;
+    margin: 0;
+}
+
+.resources header h1 {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0rem;
+    color: rgb(164, 164, 175);
+}
+
+.resources header h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 20px;
+    color: rgba(164, 164, 175, 0.788);
+    opacity: 0.5;
+}
+
+.resources ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.project ul a {
+    text-decoration: none;
+}
+
+.resources ul a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 0.6px solid transparent;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0.3rem;
+    border-radius: 8px;
+    transition: 0.25s ease-in-out;
+}
+
+.resources ul a .content {
+    display: flex;
+}
+
+.resources ul a .language {
+    display: flex;
+    gap: 8px;
+}
+
+.resources ul a .language span {
+    background-color: rgb(63 63 70 / 1);
+    border: 0.6px solid rgba(255, 255, 255, 0.205);
+    border-radius: 16px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgba(164, 164, 175, 0.788);
+    font-size: 13px;
+}
+
+.resources ul a:hover {
+    background-color: #27272A;
+    cursor: pointer;
+    border: 0.6px solid rgba(255, 255, 255, 0.096);
+}
+
+.resources ul a .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+}
+
+.resources ul a .avatar svg {
+    width: 23px;
+    height: 23px;
+    background-color: rgb(63 63 70 / 1);
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    border: 0.6px solid rgba(255, 255, 255, 0.096);
+    box-sizing: content-box;
+    color: #adadb6;
+}
+
+.resources ul a .description h1 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #D4D4D8;
+}
+
+.resources ul a .description h2 {
+    margin: 0;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(113 113 122 / 1);
+}
