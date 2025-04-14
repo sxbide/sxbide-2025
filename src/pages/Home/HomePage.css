@@ -17,13 +17,20 @@ section .devider {
 
 /* * {
     outline: 1px solid red;
-
 } */
 
 section.home .about-me {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 32px;
+    width: 100%;
+}
+
+section.home .about-me .avatar img {
+    width: 100px;
+    border-radius: 50%;
 }
 
 section.home .about-me h2 {
@@ -33,6 +40,12 @@ section.home .about-me h2 {
     font-weight: 500;
     font-size: 20px;
     color: rgb(236 236 239 / 1);
+    /* margin-left: 1rem; */
+}
+
+section.home .about-me-description {
+    /* margin-left: 1rem; */
+    opacity: 0.9;
 }
 
 section.home .about-me-description h2 {

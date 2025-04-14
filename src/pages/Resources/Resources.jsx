@@ -21,6 +21,7 @@ export default function Resources() {
                     </div>
 
                     <div className="language">
+                        <span className='icon-java'>Minecraft</span>
                         <span className='icon-java'>Java</span>
                     </div>
                 </a>
@@ -31,31 +32,16 @@ export default function Resources() {
                         </div>
                         <div className="description">
                             <h1>Minecraft Shop</h1>
-                            <h2>A 1.20 minecraft plugin to buy and sell items from - to a npc.</h2>
+                            <h2>A spigot plugin to buy and sell items from - to a npc.</h2>
                         </div>
                     </div>
 
                     <div className="language">
+                        <span className='icon-java'>Minecraft</span>
                         <span className='icon-java'>Java</span>
                         <span className='icon-java'>MongoDB</span>
                     </div>
                 </a>
-                {/* <a href='https://github.com/whynotmax/SkyMythDE' target='_blank'>
-                    <div className="content">
-                        <div className="avatar">
-                            <Icon icon='ri:sword-line' />
-                        </div>
-                        <div className="description">
-                            <h1>Minecraft SkyPvP Plugin</h1>
-                            <h2>A 1.8 minecraft plugin. Fully functional skypvp with crates, pvp kits and much more. By me and @whynotmax</h2>
-                        </div>
-                    </div>
-
-                    <div className="language">
-                        <span className='icon-java'>Java</span>
-                        <span className='icon-java'>MongoDB</span>
-                    </div>
-                </a> */}
 
             </ul>
         </section>
