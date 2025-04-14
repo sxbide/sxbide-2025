@@ -22,7 +22,7 @@ export default function HomePage() {
                 <div className="about-me-description">
                     <h2>Hey👋 I'm Sebastian, a 19 year old, austria-based developer with over four years of experience. My main focus is on building object-oriented backends in java. I’m always eager to learn new things and web development has been especially exciting to me because it lets me turn creative ideas into visual, interactive experiences.</h2>
                     <break></break>
-                    <h2>I'm currently working on a multiplayer game platform called landaria.net, where I focus on developing with the latest version and leveraging the newest features and opportunities it offers. We launch our open beta in summer 2025.</h2>
+                    <h2>I'm currently working on a multiplayer game platform called landaria.net, where I focus on developing with the latest version and leveraging the newest features and opportunities it offers.</h2>
                 </div>
 
                 <div className="devider"></div>

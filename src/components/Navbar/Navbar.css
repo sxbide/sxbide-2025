@@ -14,9 +14,6 @@ nav.navigation {
     margin-bottom: 2rem;
 }
 
-* {
-    /* outline: 1px solid red; */
-}
 
 nav.navigation .signature {
     display: flex;
@@ -82,7 +79,7 @@ nav.navigation ul li:hover:not(.selected) {
 
 nav.navigation ul li a{
     font-family: 'Lexend';
-    font-weight: 330;
+    font-weight: 400;
     text-decoration: none;
     color: var(--text-color);
     margin-left: 0.6rem;
