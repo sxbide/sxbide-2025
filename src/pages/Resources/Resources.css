@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-color: #18181B;
+    background-color: #18181ba4;
     border: 0.6px solid rgba(255, 255, 255, 0.096);
     border-radius: 0.75rem;
     overflow: hidden;
@@ -87,7 +87,7 @@
 
 
 .resources ul a .language span {
-    background-color: #2c2c2e;
+    background-color: #2c2c2e75;
     /* border: 0.6px solid rgba(255, 255, 255, 0.205); */
     border-radius: 16px;
     padding: 7px;

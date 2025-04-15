@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-color: #18181B;
+    background-color: #18181ba4;
     border: 0.6px solid rgba(255, 255, 255, 0.096);
     border-radius: 0.75rem;
     width: 100%;
@@ -56,7 +56,7 @@
 }
 
 .footer ul a:hover {
-    background-color: #27272A;
+    background-color: #1b1b1d9c;
     cursor: pointer;
     border: 0.6px solid rgba(255, 255, 255, 0.096);
 }

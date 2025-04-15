@@ -10,8 +10,12 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar />
+      <div className='background-grid'>
+      </div>
 
+
+      <Navbar />
+      
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
         <Route path='/resources' element={<Resources />}></Route>
