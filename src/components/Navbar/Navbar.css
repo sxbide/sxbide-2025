@@ -1,17 +1,16 @@
 nav.navigation {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: var(--text-color);
     margin-left: auto;
     margin-right: auto;
-    /* max-width: 400px; */
+    max-width: 630px;
     font-size: 34px;
-    column-gap: 24rem;
     row-gap: 1rem;
     flex-wrap: wrap;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -23,7 +22,7 @@ nav.navigation .signature {
 nav.navigation .signature a {
     font-family: 'Karstar';
     font-weight: 200;
-    font-size: 70px;
+    font-size: 60px;
     color: rgb(226, 226, 226); ;
     text-decoration: none;
 }

@@ -1,0 +1,18 @@
+.cursor {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    /* filter: drop-shadow(0px 0px 10px rgb(255, 255, 255)); */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.342);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transform: translate3d(0, 0, 0);
+    z-index: 9999;
+}
+
+a:hover .cursor {
+    background-color: red;
+}

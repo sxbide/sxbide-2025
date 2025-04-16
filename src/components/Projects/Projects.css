@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-color: #18181ba4;
+    background-color: #18181b65;
     border: 0.6px solid rgba(255, 255, 255, 0.096);
     border-radius: 0.75rem;
     width: 100%;
@@ -23,8 +23,7 @@
     margin: 0;
     margin-left: 20px;
     margin-top: 20px;
-    margin-bottom: 0rem;
-    color: rgb(164, 164, 175);
+    color: whitesmoke;
 }
 
 .projects header h2 {
@@ -35,6 +34,7 @@
     margin-left: 20px;
     color: rgba(164, 164, 175, 0.788);
     opacity: 0.5;
+    /* margin-bottom: 5px; */
 }
 
 .projects ul {
@@ -57,6 +57,7 @@
     margin: 0.3rem;
     border-radius: 8px;
     transition: 0.25s ease-in-out;
+    /* color: red; */
 }
 
 .projects ul a:hover {
@@ -89,7 +90,7 @@
     margin: 0;
     font-size: 14px;
     font-weight: 500;
-    color: #D4D4D8;
+    color: #9BA1A5;
 }
 
 .projects ul a .description h2 {

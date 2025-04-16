@@ -3,7 +3,7 @@ section {
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    color: var(--text-color);
+    /* color: red; */
     margin-left: auto;
     margin-right: auto;
     max-width: 640px;
@@ -35,11 +35,10 @@ section.home .about-me .avatar img {
 section.home .about-me h2 {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Mona Sans';
     font-weight: 500;
     font-size: 20px;
     color: rgb(236 236 239 / 1);
-    /* margin-left: 1rem; */
 }
 
 section.home .about-me-description {
@@ -50,10 +49,12 @@ section.home .about-me-description {
 section.home .about-me-description h2 {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Mona Sans';
     font-weight: 450;
     font-size: 16px;
-    color: #D4D4D8;
+    color: #9BA1A5;
+    word-spacing: -0.01em;
+    line-height: 1.6em;
     margin-bottom: 1.5rem;
 }
 
