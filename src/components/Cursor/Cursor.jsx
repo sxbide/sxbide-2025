@@ -11,7 +11,7 @@ export default function Cursor() {
         let targetY = 0;
         let currentX = 0;
         let currentY = 0;
-        const speed = 0.01; // smaller = slower, smoother
+        const speed = 0.1; // smaller = slower, smoother
 
         const handleMouseMove = (e) => {
             targetX = e.clientX;
