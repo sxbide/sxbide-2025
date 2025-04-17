@@ -62,7 +62,7 @@
 
 .projects ul a:hover {
     background-color: #1b1b1d9c;
-    cursor: pointer;
+    /* cursor: pointer; */
     border: 0.6px solid rgba(255, 255, 255, 0.096);
 }
 
@@ -98,4 +98,10 @@
     font-size: 12px;
     font-weight: 400;
     color: rgb(113 113 122 / 1);
+}
+
+@media (max-width: 600px) {
+    .projects ul a .description h2 {
+        font-size: 10px;
+    }
 }

@@ -11,7 +11,7 @@ export default function Cursor() {
         let targetY = 0;
         let currentX = 0;
         let currentY = 0;
-        const speed = 0.1; // smaller = slower, smoother
+        const speed = 0.1;
 
         const handleMouseMove = (e) => {
             targetX = e.clientX;
@@ -19,13 +19,10 @@ export default function Cursor() {
         };
 
         const animate = () => {
-            // Lerp toward the target
             currentX += (targetX - currentX) * speed;
             currentY += (targetY - currentY) * speed;
 
-            // Offset to center the circle on the pointer
             cursor.style.transform = `translate3d(${currentX - 10}px, ${currentY - 10}px, 0)`;
-
             requestAnimationFrame(animate);
         };
 

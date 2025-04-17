@@ -32,7 +32,7 @@ export default function Navbar() {
     return (
         <nav className="navigation">
             <div className="signature">
-                <Link to='/'>Sebastian</Link>
+                <Link to="/" data-hover-cursor>Sebastian</Link>
             </div>
 
             <ul className="items">

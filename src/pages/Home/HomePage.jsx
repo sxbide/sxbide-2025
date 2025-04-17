@@ -10,7 +10,7 @@ export default function HomePage() {
 
                 <div className="about-me">
                     <div className="text">
-                        <h2><span style={{ borderBottom: '1.5px solid rgb(98, 57, 211)' }}>Self-taught Developer</span> creating</h2>
+                        <h2><span style={{ borderBottom: '1.5px solid rgb(98, 57, 211)' }}>self-taught developer</span> creating</h2>
                         <h2>add-ons for various videogames.</h2>
                     </div>
                     {/* 
@@ -20,7 +20,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="about-me-description">
-                    <h2>Hey👋 I'm Sebastian, a 19 year old, austria-based developer with over four years of experience, mainly focused on building scalable & object-oriented backends in java. Im in love with MongoDB that form the backbone of my applications.<br /> <br/>Since months now, web development caught my primary attention — it's exciting to bring creative ideas to life trough visual and interactive experiences. I've been experimenting with frontend tools like React—this webpage is actually one of the things I built!</h2>
+                    <h2>Hey<span>👋</span> I'm Sebastian, a 19 year old, austria-based developer with over four years of experience, mainly focused on building scalable & object-oriented backends in java. I’m a big fan of MongoDB — it’s the core of my stack.<br /> <br/>Since months now, web development caught my primary attention — it's exciting to bring creative ideas to life trough visual and interactive experiences. I've been experimenting with frontend tools like React—this webpage is actually one of the things I built!</h2>
                     {/* <break></break> */}
                 </div>
 
