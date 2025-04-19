@@ -58,6 +58,16 @@ section.home .about-me-description h2 {
     margin-bottom: 1.5rem;
 }
 
+section.home .vertical-center {
+  display: flex;
+  word-break: break-all;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
 @keyframes waving {
     0% {
       transform: rotate(0deg);

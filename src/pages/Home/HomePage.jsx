@@ -1,3 +1,4 @@
+import { Icon } from '@iconify/react/dist/iconify.js'
 import Footer from '../../components/Footer/Footer'
 import Projects from '../../components/Projects/Projects'
 import './HomePage.css'
@@ -20,7 +21,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="about-me-description">
-                    <h2>Hey<span>👋</span> I'm Sebastian, a 19 year old, austria-based developer with over four years of experience, mainly focused on building scalable & object-oriented backends in java. I’m a big fan of MongoDB — it’s the core of my stack.<br /> <br/>Since months now, web development caught my primary attention — it's exciting to bring creative ideas to life trough visual and interactive experiences. I've been experimenting with frontend tools like React—this webpage is actually one of the things I built!</h2>
+                    <h2>Hey<span>👋</span> I'm Sebastian, a 19 year old, austria-based developer with over four years of experience, mainly focused on building scalable & object-oriented backends in java. <div className='vertical-center'>I’m a big fan of MongoDB <Icon icon='skill-icons:mongodb'/> — it’s the core of my stack.</div>Since months now, web development caught my primary attention — it's exciting to bring creative ideas to life trough visual and interactive experiences. I've been experimenting with frontend tools like React—this webpage is actually one of the things I built!</h2>
                     {/* <break></break> */}
                 </div>
 

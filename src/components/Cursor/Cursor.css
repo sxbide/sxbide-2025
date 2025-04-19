@@ -1,9 +1,9 @@
 .cursor {
     width: 25px;
     height: 25px;
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: 0px 3px 35px rgba(255, 255, 255, 0.311);
-    border: 1px solid #9ba1a533;
+    background-color: rgba(255, 255, 255, 0.068);
+    box-shadow: 0px 3px 35px rgba(255, 255, 255, 0.123);
+    border: 1px solid #9ba1a51f;
     border-radius: 100%;
     position: fixed;
     top: 0;

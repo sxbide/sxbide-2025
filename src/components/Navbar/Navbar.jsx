@@ -9,8 +9,7 @@ export default function Navbar() {
     const [isDark, setIsDark] = useState(true);
 
     const menuItems = [
-        { label: 'Home', href: '/' },
-        { label: 'Resources', href: '/resources' },
+        { label: 'Home', href: '/' }
     ];
 
     useEffect(() => {
